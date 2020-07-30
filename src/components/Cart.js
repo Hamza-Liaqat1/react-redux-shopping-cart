@@ -32,6 +32,7 @@ export default class Cart extends Component {
                         ))}
                     </ul>
                 </div> 
+                {cartItems.length!==0 && (
                 <div className="cart">
                     <div className="total">
                         <div>
@@ -41,6 +42,7 @@ export default class Cart extends Component {
                          <button className="button primary">Proceed to Check-out </button>  
                     </div>
                 </div> 
+                )}
             </div>
         )
     }
