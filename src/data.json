@@ -3,82 +3,82 @@
     {
         "_id": "dress1",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 5.9,
         "image": "/images/lajawab.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": [ "XL", "XXL"]
     },
     {
         "_id": "dress2",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 19,
         "image": "/images/lajawab2.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X", "L"]
     },
     {
         "_id": "dress3",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 60,
         "image": "/images/lajawab3.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X", "XXL"]
     },
     {
         "_id": "dress4",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 40,
         "image": "/images/lajawab.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X", "L", "XL"]
     },
     {
         "_id": "dress5",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 430,
         "image": "/images/lajawab2.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": [ "XXL"]
     },
     {
         "_id": "dress6",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 20,
         "image": "/images/lajawab3.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X",  "XXL"]
     },
     {
         "_id": "dress7",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 90,
         "image": "/images/lajawab.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X", "XXL"]
     },
     {
         "_id": "dress8",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 10.5,
         "image": "/images/lajawab2.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X", "L", "XL"]
     },
     {
         "_id": "dress9",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 14.8,
         "image": "/images/lajawab3.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": ["X"]
     },
     {
         "_id": "dress10",
         "title": "BBQ Deals",
-        "price": 190,
+        "price": 19.3,
         "image": "/images/lajawab.jpg",
         "description": "This is all fro latest trends",
-        "availableSizes": ["X", "L", "XL", "XXL"]
+        "availableSizes": [ "XL", "XXL"]
     }
   ]
 }
