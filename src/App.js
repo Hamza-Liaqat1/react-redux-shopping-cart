@@ -15,6 +15,11 @@ class App extends React.Component {
       sort:""
     }
   }
+
+  createOrder = (order) => {
+    alert("created Order for " + order.name)
+  }
+
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
     this.setState({
@@ -100,6 +105,7 @@ this.setState({
           <div className="sidebar">
             <Cart cartItems={this.state.cartItems}
             removeFromCart={this.removeFromCart}
+            createOrder={this.createOrder}
             />
           </div>
         </div>

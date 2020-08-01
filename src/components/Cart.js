@@ -5,9 +5,26 @@ export default class Cart extends Component {
     constructor(props){
         super(props);
         this.state={
+            name:"",
+            email:"",
+            address:"",
             showCheckout: false
         }
-
+    }
+    handleInput = (event) => {
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+    }
+    createOrder = (event) => {
+        event.preventDefault();
+        const order = {
+            name: this.state.name,
+            email: this.state.email,
+            address: this.state.address,
+            cartItems: this.props.cartItems,
+        };
+        this.props.createOrder(order)
     }
     render() {
        const {cartItems} = this.props; 
@@ -56,11 +73,34 @@ export default class Cart extends Component {
                         <form onSubmit={this.createOrder}>
                             <ul className="form-container">
                                 <li>
-                                    <label>Email</label>
-                                    <input type="email"
+                                    <label>Name</label>
+                                    <input 
+                                     type="text"
+                                     name="name"
                                      required 
                                      onChange={this.handleInput}
                                     />
+                                </li>
+                                <li>
+                                    <label>Email</label>
+                                    <input 
+                                     type="email"
+                                     name="email"
+                                     required 
+                                     onChange={this.handleInput}
+                                    />
+                                </li>
+                                <li>
+                                    <label>Address</label>
+                                    <input 
+                                     type="text"
+                                     name="address"
+                                     required 
+                                     onChange={this.handleInput}
+                                    />
+                                </li>
+                                <li>
+                                    <button type="submit" className="button primary">Checkout</button>
                                 </li>
                             </ul>
                         </form>
